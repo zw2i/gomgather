@@ -1,0 +1,200 @@
+#main-content,
+body,
+footer {
+    background: #FFFAEC !important
+}
+
+span.a-badge i.fa.fa-info-circle {
+    color: red !important
+}
+
+header {
+    border-bottom-color: #FFBB7E !important;
+    background: #fff4cf !important
+}
+
+header>#header-area>a>h1 {
+    background: url(https://raw.githubusercontent.com/zw2i/gomgather/master/2.png) no-repeat;
+    background-size: 90px 32px;
+    margin-top: 4px;
+}
+
+.pagination>li>a,
+.pagination>li>span,
+header>#header-area>#header-bar-link {
+    color: #ff968f
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+    color: #FFBB7E
+}
+
+#header-top-notice a {
+    font-weight: 700;
+    color: #FFBB7E !important
+}
+
+#header-top-notice strong.notice-badge {
+    background: #FFBB7E !important
+}
+
+#article-content-wrapper>.header,
+#article-list>.article-list-row.notice {
+    background: #fff2e7 !important
+}
+
+#article-content-wrapper>.header {
+    border-top: 2px solid #eee2bb
+}
+
+#article-list>.article-list-row.notice>.item>a.list-title {
+    vertical-align: middle
+}
+
+#article-list>.article-list-row.notice>.item>a.list-title>.title-value {
+    padding-left: 6px
+}
+
+#article-list>.article-list-row.notice>.item>a.list-title>.list-writer {
+    height: 0 !important;
+    opacity: 0;
+    padding: 0
+}
+
+#article-list>.article-list-row.notice>.item>.list-header {
+    width: 12px
+}
+
+#article-list>.article-list-row>.item>span.a-badge {
+    width: 40px
+}
+
+#article-list>.article-list-row>.item>a.list-title>.title-value {
+    max-width: 240px
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #FFBB7E !important
+}
+
+#article-list>.article-list-row>.item>.list-header>strong {
+    font-size: 0;
+    padding: 0
+}
+
+#article-list #article-list-category {
+    background: #FFE5CE;
+}
+
+#article-list #article-list-category>a {
+    display: inline-block;
+    padding: 11px 16px;
+    background: #FFE5CE;
+    ;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700
+}
+
+#article-list #article-list-category>a:focus {
+    background: #fff
+}
+
+#board-info {
+    border-top: 4px solid #FFBB7E;
+    background: #FFE5CE;
+    ;
+    max-height: 46px;
+}
+
+#board-info>a.board-right-menu {
+    max-height: 40px;
+    border: 0;
+    vertical-align: middle;
+    color: #FFBB7E
+}
+
+.btn-primary {
+    background: #FFBB7E;
+    border-color: #fff
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #FFBB7E !important;
+    border: none
+}
+
+.pagination>li>a:hover {
+    background-color: #f59ba5;
+    color: #fff
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background-color: #FFBB7E;
+    border-color: #FFBB7E
+}
+
+#article-reply-area #reply-best-area .reply>.reply-header,
+#article-reply-area #reply-real-area .reply>.reply-header {
+    background: #eee2bb !important
+}
+
+#article-reply-area>.header h5 {
+    color: #FFBB7E
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged {
+    color: #FFBB7E !important
+}
+
+header>#header-area>#header-search-link,
+header>#header-search-bar #header-search-btn {
+    color: #ff968f
+}
+
+header>#header-search-bar #header-search-input {
+    border: 2px solid #FFBB7E
+}
+
+#article-list>.article-list-row.notice:hover,
+#article-list>.article-list-row:hover {
+    background-color: #FFE5CE;
+}
+
+nav#nav>.nav-header {
+    background: #FFBB7E
+}
+
+#article-list #article-list-menu>.btn.best,
+.btn-outline-success {
+    border-color: #FFBB7E;
+    color: #FFBB7E
+}
+
+.fr-popup .fr-command.fr-btn,
+.fr-toolbar .fr-command.fr-btn {
+    color: #4C4646
+}
+
+span.a-badge i.fa.fa-star {
+    color: #FFBB7E
+}
+
+.panel-title {
+    background: 0 0
+}
+
+#article-list>.article-list-row>.item>a.list-title:visited {
+    color: #999 !important;
+}
+
+#article-list #article-list-category>a {
+    color: #444 !important;
+}

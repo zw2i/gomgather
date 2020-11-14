@@ -10,8 +10,15 @@
 
 /* 배경 그라데이션 */
 
-body,
 html {
+    background-image: url('https://raw.githubusercontent.com/zw2i/gomgather/master/snow1.png'), url('https://raw.githubusercontent.com/zw2i/gomgather/master/snow2.png'), url('https://raw.githubusercontent.com/zw2i/gomgather/master/snow3.png') !important;
+    -webkit-animation: snow 30s linear infinite !important;
+    -moz-animation: snow 30s linear infinite !important;
+    -ms-animation: snow 30s linear infinite !important;
+    animation: snow 30s linear infinite !important;
+}
+
+body {
     /* 선형 그래디언트 적용(180도 방향으로 ) */
     background: linear-gradient(180deg, #FFFAEC 0, #FFFAEC 100%);
 }
@@ -262,7 +269,7 @@ h3 {
 }
 
 #board-info h1>a:hover {
-    color: #926a58;
+    color: #9A5649;
     font-weight: 700;
     transition: all 150ms ease-in-out;
 }
@@ -507,4 +514,45 @@ body {
 
 #movetotop img {
     display: none;
+}
+
+@keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+@-moz-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+@-webkit-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+        background-color: transparent;
+    }
+}
+
+@-ms-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+.list-category .category {
+    color: rgb(46, 46, 46) !important;
 }
